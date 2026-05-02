@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background: #000000;
+  background: #b40101;
   color: rgb(255, 0, 0);
   padding: 1rem;
   text-align: center;
@@ -52,7 +52,6 @@ header {
 
 #calculator button {
   font: inherit;
-  background: #023d6d;
   color: white;
   border: 1px solid #023d6d;
   padding: 1rem;
@@ -63,7 +62,22 @@ header {
   outline: none;
 }
 
-#calculator button:hover,
+#btn-add {
+  background-color: green;
+}
+
+#btn-subtract {
+  background-color: red;
+}
+
+#btn-multiply{
+  background-color: yellowgreen;
+}
+
+#btn-divide{
+  background-color: purple;
+}
+
 #calculator button:active {
   background: #084f88;
   border-color: #084f88;
